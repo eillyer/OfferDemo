@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'OfferDemo' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for OfferDemo
+    pod 'Alamofire'                                                             #4.7.1
+    pod 'MBProgressHUD'                                                         #1.1.0
+    pod 'HandyJSON'
+    pod 'IQKeyboardManagerSwift'                                                #5.0.8
+    pod 'ObjectMapper'
+    pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'    #4.0.0
+    pod 'SDWebImage'
+
+  target 'OfferDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
